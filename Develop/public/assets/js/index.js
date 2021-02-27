@@ -58,10 +58,12 @@ const renderActiveNote = () => {
     noteText.setAttribute('readonly', true);
     noteTitle.value = activeNote.title;
     noteText.value = activeNote.title;
-  } else {
-    noteTitle.value = '';
-    noteText.value = '';
-  }
+  } 
+//  recommended from classmates that this isnt supposed to be there
+//   else {
+//     noteTitle.value = '';
+//     noteText.value = '';
+//   }
 };
 
 const handleNoteSave = () => {
